@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+        <html>
+            <head>
+                <title>
+                    lec 1.3
+                </title>
+                <link href="css/style.css" rel="stylesheet">
+            </head>
+
+            <body>
+                
+
+                <button class="b1">Hide</button>
+                <button class="b2">Show</button>
+                <button class="b3">Fade in</button>
+                <button class="b4">Fade out</button>
+                <button class="b5">Fade toggle</button>
+                <button class="b6">Slide up</button>
+                <button class="b7">Slide down</button>
+                <button class="b8">Slide toggle</button>
+                <button class="b9">Add class</button>
+                <button class="b10">Remove class</button>
+                <button class="b11">Toggle class</button>
+
+                <script src="js/jquery-3.7.1.min.js"></script>
+
+                <script>
+                    $(document).ready(function(){
+                        $(".b1").click(function(){
+                            $(".main").Hide(2000);
+                        });
+                    });
+                </script>
+            </body>
+        </html>
